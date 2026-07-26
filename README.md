@@ -1,9 +1,14 @@
 # Datamining_Final_Presentation
 Tahapan dalam Notebook:
+
 Phase 1 Data Understanding & Preprocessing: pembersihan data, penanganan missing value, feature selection (korelasi, mutual information, entropy/information gain), feature engineering.
+
 Phase 2 Segmentation via Clustering: K-Means (K=4) menghasilkan 4 segmen nasabah Credit-Reliant Customers, Low-Engagement Customers, Affluent Active Spenders, Affluent Conservative Savers.
+
 Phase 3 Association Rule Mining: Apriori untuk menemukan pola antar-atribut nasabah (usia, tenor pinjaman, jenis transaksi, dll).
+
 Phase 4 Anomaly & Outlier Detection: kombinasi IQR, Z-score, dan Isolation Forest, dengan cross-reference ke hasil clustering Phase 2.
+
 Phase 5 Visualization & Knowledge Presentation: dashboard interaktif (Plotly Dash) dengan filter global, peta segmentasi, ranking kota, jaringan aturan asosiasi, dan detail anomali.
 
 Cara Menjalankan:
