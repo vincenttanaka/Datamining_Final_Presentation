@@ -18,7 +18,7 @@ pip install dash plotly pandas numpy scikit-learn networkx mlxtend
 2. Jalankan notebook
 Buka DataMining_Dashboard_FinalProject.ipynb di Jupyter/Colab, lalu jalankan seluruh cell dari atas ke bawah secara berurutan:
 Cell pertama menginstall/uninstall dash versi yang dibutuhkan, setelah cell ini selesai, restart runtime satu kali, baru jalankan ulang seluruh notebook dari awal. Ini mencegah error module not found akibat versi dash lama masih terpakai di tengah proses.
-Cell dashboard (Plotly Dash) berada di bagian paling akhir notebook (Phase 5), jalankan setelah cell "Setup Rekap & Konsolidasi Phase 1–4" agar variabel yang dibutuhkan (df, top15_rules, rules_pool, city_agg, centroids_pca, cluster_names) sudah tersedia.
+Cell dashboard (Plotly Dash) berada di bagian paling akhir notebook (Phase 5), jalankan setelah cell "Setup Rekap & Konsolidasi Phase 1-4" agar variabel yang dibutuhkan (df, top15_rules, rules_pool, city_agg, centroids_pca, cluster_names) sudah tersedia.
 
 3. Akses dashboard
 Setelah cell dashboard dijalankan, Dash akan menampilkan link lokal (biasanya http://127.0.0.1:8050) buka link tersebut di browser.
